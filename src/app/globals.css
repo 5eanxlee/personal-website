@@ -1,0 +1,164 @@
+/* Global Styles */
+:root {
+    --text-color: #333;
+    --background-color: #fff;
+    --link-color: #555;
+    --link-hover: #000;
+    --border-color: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+/* Main Content */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Hero Image Container */
+.hero-container {
+    flex: 0.7;
+    /* Reduced from 1 to make more room for footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0;
+    /* Removed bottom margin to move up footer */
+}
+
+.hero-image {
+    max-width: 100%;
+    max-height: 60vh;
+    /* Reduced from 70vh to make image shorter */
+    object-fit: cover;
+    object-position: center 45%;
+    /* Slightly adjust to crop more from top */
+    border-radius: 5px;
+}
+
+/* Info Section */
+.info-container {
+    flex: 0.3;
+    /* Increased from default to create more footer height */
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+    padding-top: 15px;
+    /* Increased padding for more footer height */
+    padding-bottom: 5px;
+    /* Added bottom padding */
+}
+
+.personal-info {
+    flex: 1;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    /* Increased margin for more spacing */
+}
+
+.location,
+.email {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 5px;
+    /* Increased margin for more spacing */
+}
+
+/* Links Sections */
+.links-container {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-title {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    /* Increased margin for more spacing */
+    color: #555;
+}
+
+/* Common list styles - remove bullets */
+.links-list {
+    list-style-type: none;
+}
+
+/* Projects list - 2 items per row */
+.projects-section .links-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 15px;
+    width: 100%;
+}
+
+/* Connect list - keep as flex */
+.connect-section .links-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.links-list li {
+    margin-bottom: 6px;
+    /* Increased margin for more spacing */
+    font-size: 13px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .info-container {
+        flex-direction: column;
+    }
+
+    .links-container {
+        margin-top: 15px;
+    }
+
+    .links-section {
+        margin-bottom: 15px;
+    }
+
+    /* Make projects single column on mobile */
+    .projects-section .links-list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "personal-website",
+    "version": "1.0.0",
+    "description": "A minimalist, single-page portfolio website for Soohyun (Sean) Lee.",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/5eanxlee/personal-website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/5eanxlee/personal-website/issues"
+    },
+    "homepage": "https://github.com/5eanxlee/personal-website#readme",
+    "dependencies": {
+        "next": "^14.0.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
