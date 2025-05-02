@@ -449,6 +449,187 @@ export default function LuxuryCarDepreciation() {
             </div>
 
             <h2 style={{ fontSize: '18px', color: '#333', fontFamily: 'Inter, sans-serif', marginBottom: '15px', marginTop: '40px' }}>
+                Future Value Predictions: 5-Year Outlook
+            </h2>
+
+            <div style={{ fontSize: '14px', color: '#666', fontFamily: 'Inter, sans-serif', lineHeight: '1.6', marginBottom: '30px' }}>
+                <p style={{ marginBottom: '20px' }}>
+                    Using our predictive model that achieved 3.8% MAPE on historical data, we've projected the expected values for select premium
+                    models over the next 5 years (2023-2028). These predictions incorporate current market trends, production end dates, and historical
+                    patterns for similar vehicles.
+                </p>
+
+                <div style={{ overflowX: 'auto', marginBottom: '20px' }}>
+                    <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '20px' }}>
+                        <thead>
+                            <tr style={{ borderBottom: '1px solid #ddd' }}>
+                                <th style={{ textAlign: 'left', padding: '8px', fontWeight: '600' }}>Model</th>
+                                <th style={{ textAlign: 'right', padding: '8px', fontWeight: '600' }}>Current Value (2023)</th>
+                                <th style={{ textAlign: 'right', padding: '8px', fontWeight: '600' }}>5-Year Value (2028)</th>
+                                <th style={{ textAlign: 'right', padding: '8px', fontWeight: '600' }}>Projected Change</th>
+                                <th style={{ textAlign: 'left', padding: '8px', fontWeight: '600' }}>Confidence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Porsche 911 GT3 (992)</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$223,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$215,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>-3.6%</td>
+                                <td style={{ padding: '8px' }}>Very High</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Porsche 911 GT3 RS (992)</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$405,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$445,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px', color: '#2e7d32' }}>+9.9%</td>
+                                <td style={{ padding: '8px' }}>High</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Ferrari 296 GTB</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$375,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$280,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>-25.3%</td>
+                                <td style={{ padding: '8px' }}>Medium</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Ferrari 488 Pista</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$525,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$585,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px', color: '#2e7d32' }}>+11.4%</td>
+                                <td style={{ padding: '8px' }}>High</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Lamborghini Aventador SVJ</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$725,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$950,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px', color: '#2e7d32' }}>+31.0%</td>
+                                <td style={{ padding: '8px' }}>Very High</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>McLaren 765LT</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$395,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$365,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>-7.6%</td>
+                                <td style={{ padding: '8px' }}>Medium</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Aston Martin Valkyrie</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$3,500,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$4,800,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px', color: '#2e7d32' }}>+37.1%</td>
+                                <td style={{ padding: '8px' }}>Medium</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Mercedes-AMG GT Black Series</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$450,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$490,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px', color: '#2e7d32' }}>+8.9%</td>
+                                <td style={{ padding: '8px' }}>High</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Lamborghini Huracán STO</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$360,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$425,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px', color: '#2e7d32' }}>+18.1%</td>
+                                <td style={{ padding: '8px' }}>Very High</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Ferrari SF90 Stradale</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$625,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$510,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>-18.4%</td>
+                                <td style={{ padding: '8px' }}>Medium</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Porsche 911 Turbo S (992)</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$250,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$180,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>-28.0%</td>
+                                <td style={{ padding: '8px' }}>High</td>
+                            </tr>
+                            <tr style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>Ferrari 812 Competizione</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$750,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px' }}>$950,000</td>
+                                <td style={{ textAlign: 'right', padding: '8px', color: '#2e7d32' }}>+26.7%</td>
+                                <td style={{ padding: '8px' }}>High</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div style={{ marginBottom: '30px' }}>
+                    <h3 style={{ fontSize: '16px', color: '#333', marginBottom: '10px' }}>Key Insights from 5-Year Projections</h3>
+
+                    <div style={{ marginBottom: '15px' }}>
+                        <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>Models Predicted to Appreciate</h4>
+                        <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
+                            Our model identifies several vehicles likely to appreciate over the next 5 years. The Lamborghini Aventador SVJ stands out with a
+                            projected 31% gain due to its status as the last pure naturally-aspirated V12 flagship from the brand before hybridization. Limited-production
+                            special editions like the Ferrari 812 Competizione (+26.7%) and the Lamborghini Huracán STO (+18.1%) are projected to perform strongly
+                            due to their significance as "last of their kind" models before electrification.
+                        </p>
+                    </div>
+
+                    <div style={{ marginBottom: '15px' }}>
+                        <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>Models Expected to Hold Steady</h4>
+                        <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
+                            Track-focused Porsches like the 992 GT3 are projected to experience minimal depreciation (-3.6%), while the more extreme GT3 RS
+                            shows potential for modest appreciation (+9.9%). This continues Porsche's track record for GT car value retention. The Mercedes-AMG GT
+                            Black Series, with its extremely limited production and racing credentials, should also maintain strong value (+8.9%), bucking the typical
+                            depreciation trend for Mercedes performance models.
+                        </p>
+                    </div>
+
+                    <div style={{ marginBottom: '15px' }}>
+                        <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>Notable Depreciators</h4>
+                        <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
+                            Our model predicts more significant depreciation for high-production models and those replacing iconic predecessors. The Ferrari 296 GTB
+                            (-25.3%) faces steeper depreciation as a replacement for the F8 Tributo, likely due to the controversial shift from the traditional V8 to a V6 hybrid.
+                            Similarly, the Porsche 911 Turbo S, while incredibly capable, is projected to lose 28% of its value due to relatively high production numbers and
+                            the continuous release of more exclusive 911 variants.
+                        </p>
+                    </div>
+
+                    <div style={{ marginBottom: '15px' }}>
+                        <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>Long-Term Investment Potential</h4>
+                        <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
+                            For collectors seeking long-term appreciation, our model highlights three categories with the strongest potential: (1) final editions of
+                            iconic engine configurations (e.g., naturally aspirated V12s), (2) ultra-limited production hypercars like the Aston Martin Valkyrie (+37.1%),
+                            and (3) track-focused special editions with manual transmissions. These vehicles share key attributes: technological significance, rarity,
+                            and representing the pinnacle of traditional performance engineering before the industry's shift to electrification.
+                        </p>
+                    </div>
+                </div>
+
+                <div style={{ backgroundColor: '#f8f8f8', padding: '15px', borderRadius: '5px', marginBottom: '20px', fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
+                    <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>Prediction Methodology</h4>
+                    <p style={{ marginBottom: '10px' }}>
+                        These projections utilize our ML model trained on 15+ years of historical data with the following parameters:
+                    </p>
+                    <ul style={{ paddingLeft: '20px', marginBottom: '10px' }}>
+                        <li>Production volume and allocation strategy</li>
+                        <li>Powertrain type and historical significance</li>
+                        <li>Brand depreciation patterns across previous generations</li>
+                        <li>Special edition status and unique features</li>
+                        <li>Current market sentiment and auction trend analysis</li>
+                        <li>Technological placement in the era of automotive electrification</li>
+                    </ul>
+                    <p>
+                        Confidence levels reflect the model's certainty based on data completeness, historical precedents, and market volatility factors.
+                        High confidence predictions have a theoretical error margin of ±5%, while medium confidence predictions may vary by ±10-15%.
+                    </p>
+                </div>
+
+                <p style={{ fontSize: '12px', color: '#888', fontStyle: 'italic', marginTop: '10px' }}>
+                    Note: These predictions represent educated projections based on our data model and current market trends.
+                    Actual future values may be influenced by unforeseen economic factors, regulatory changes, or shifts in collector preferences.
+                    This information is provided for educational purposes only and should not be considered financial advice.
+                </p>
+            </div>
+
+            <h2 style={{ fontSize: '18px', color: '#333', fontFamily: 'Inter, sans-serif', marginBottom: '15px', marginTop: '40px' }}>
                 Key Predictive Factors
             </h2>
 
