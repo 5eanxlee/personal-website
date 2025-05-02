@@ -71,7 +71,6 @@ a:hover {
     flex: 0.4;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid var(--border-color);
     padding-top: 15px;
     padding-bottom: 5px;
     margin-top: 15px;
