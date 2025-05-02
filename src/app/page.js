@@ -45,9 +45,17 @@ export default function Home() {
                     <div className="links-section projects-section">
                         <h2 className="links-title">PROJECTS</h2>
                         <ul className="links-list">
-                            <li><a href="#">Talisman Studio</a></li>
-                            <li><a href="#">Ferrari vs. Lamborghini Price Prediction</a></li>
+                            <li><a href="/projects/talisman">Talisman Ventures</a></li>
+                            <li><a href="/projects/luxury-cars">Luxury Automobile Depreciation Prediction Model</a></li>
                             <li><a href="#">Quantum State Transfer</a></li>
+                        </ul>
+                    </div>
+
+                    {/* Cursor Section */}
+                    <div className="links-section cursor-section">
+                        <h2 className="links-title" style={{ fontWeight: 600 }}>CURSOR</h2>
+                        <ul className="links-list">
+                            <li><a href="/cursor">Trial Exploit</a></li>
                         </ul>
                     </div>
 
