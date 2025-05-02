@@ -2,7 +2,6 @@
 
 import { useEffect } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Home() {
     // Simple fade-in animation from the original site
@@ -18,15 +17,17 @@ export default function Home() {
         <div className="main-container">
             {/* Hero Image */}
             <div className="hero-container">
-                <Image
-                    src="/sto.jpg"
-                    alt="Cover Image"
-                    className="hero-image"
-                    width={800}
-                    height={600}
-                    priority
-                    style={{ objectFit: 'cover', objectPosition: 'center 45%' }}
-                />
+                <div className="image-wrapper">
+                    <Image
+                        src="/sto.jpg"
+                        alt="Cover Image"
+                        className="hero-image"
+                        width={600}
+                        height={450}
+                        priority
+                        style={{ objectFit: 'cover', objectPosition: 'center 45%' }}
+                    />
+                </div>
             </div>
 
             {/* Info and Links */}
@@ -44,12 +45,12 @@ export default function Home() {
                     <div className="links-section projects-section">
                         <h2 className="links-title">PROJECTS</h2>
                         <ul className="links-list">
-                            <li><Link href="/projects/swoleai">SwoleAI</Link></li>
-                            <li><Link href="/projects/askai">Ask AI</Link></li>
-                            <li><Link href="/projects/skinvision">SkinVision</Link></li>
-                            <li><Link href="/projects/mathai">Math AI</Link></li>
-                            <li><Link href="/projects/ferrari-lamborghini">Ferrari vs. Lamborghini Price Prediction</Link></li>
-                            <li><Link href="/projects/quantum-state-transfer">Quantum State Transfer</Link></li>
+                            <li><a href="#">SwoleAI</a></li>
+                            <li><a href="#">Ask AI</a></li>
+                            <li><a href="#">SkinVision</a></li>
+                            <li><a href="#">Math AI</a></li>
+                            <li><a href="#">Ferrari vs. Lamborghini Price Prediction</a></li>
+                            <li><a href="#">Quantum State Transfer</a></li>
                         </ul>
                     </div>
 

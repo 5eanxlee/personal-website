@@ -45,37 +45,36 @@ a:hover {
 
 /* Hero Image Container */
 .hero-container {
-    flex: 0.7;
-    /* Reduced from 1 to make more room for footer */
+    flex: 0.6;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     margin-bottom: 0;
-    /* Removed bottom margin to move up footer */
+}
+
+.image-wrapper {
+    max-width: 80%;
+    text-align: center;
 }
 
 .hero-image {
     max-width: 100%;
-    max-height: 60vh;
-    /* Reduced from 70vh to make image shorter */
+    max-height: 45vh;
     object-fit: cover;
     object-position: center 45%;
-    /* Slightly adjust to crop more from top */
     border-radius: 5px;
 }
 
 /* Info Section */
 .info-container {
-    flex: 0.3;
-    /* Increased from default to create more footer height */
+    flex: 0.4;
     display: flex;
     justify-content: space-between;
     border-top: 1px solid var(--border-color);
     padding-top: 15px;
-    /* Increased padding for more footer height */
     padding-bottom: 5px;
-    /* Added bottom padding */
+    margin-top: 15px;
 }
 
 .personal-info {
@@ -86,7 +85,6 @@ a:hover {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 8px;
-    /* Increased margin for more spacing */
 }
 
 .location,
@@ -94,7 +92,6 @@ a:hover {
     font-size: 13px;
     color: #666;
     margin-bottom: 5px;
-    /* Increased margin for more spacing */
 }
 
 /* Links Sections */
@@ -113,7 +110,6 @@ a:hover {
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 12px;
-    /* Increased margin for more spacing */
     color: #555;
 }
 
@@ -139,7 +135,6 @@ a:hover {
 
 .links-list li {
     margin-bottom: 6px;
-    /* Increased margin for more spacing */
     font-size: 13px;
 }
 
@@ -160,5 +155,13 @@ a:hover {
     /* Make projects single column on mobile */
     .projects-section .links-list {
         grid-template-columns: 1fr;
+    }
+
+    .image-wrapper {
+        max-width: 95%;
+    }
+
+    .hero-image {
+        max-height: 40vh;
     }
 }
