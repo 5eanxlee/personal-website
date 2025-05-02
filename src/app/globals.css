@@ -63,7 +63,7 @@ a:hover {
     max-height: 45vh;
     object-fit: cover;
     object-position: center 45%;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 /* Info Section */
@@ -117,11 +117,11 @@ a:hover {
     list-style-type: none;
 }
 
-/* Projects list - 2 items per row */
+/* Projects list - single column */
 .projects-section .links-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     width: 100%;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 }
 
 .links-list li {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     font-size: 13px;
 }
 
@@ -151,16 +151,12 @@ a:hover {
         margin-bottom: 15px;
     }
 
-    /* Make projects single column on mobile */
-    .projects-section .links-list {
-        grid-template-columns: 1fr;
-    }
-
     .image-wrapper {
         max-width: 95%;
     }
 
     .hero-image {
         max-height: 40vh;
+        border-radius: 12px;
     }
 }

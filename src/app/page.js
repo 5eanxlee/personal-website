@@ -45,10 +45,7 @@ export default function Home() {
                     <div className="links-section projects-section">
                         <h2 className="links-title">PROJECTS</h2>
                         <ul className="links-list">
-                            <li><a href="#">SwoleAI</a></li>
-                            <li><a href="#">Ask AI</a></li>
-                            <li><a href="#">SkinVision</a></li>
-                            <li><a href="#">Math AI</a></li>
+                            <li><a href="#">Talisman Studio</a></li>
                             <li><a href="#">Ferrari vs. Lamborghini Price Prediction</a></li>
                             <li><a href="#">Quantum State Transfer</a></li>
                         </ul>
@@ -58,9 +55,9 @@ export default function Home() {
                     <div className="links-section connect-section">
                         <h2 className="links-title">CONNECT</h2>
                         <ul className="links-list">
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Email</a></li>
+                            <li><a href="https://www.linkedin.com/in/soohyun-sean-lee-ab774126b/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="https://x.com/5eanxlee_" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                            <li><a href="mailto:sseanxlee@gmail.com">Email</a></li>
                         </ul>
                     </div>
                 </div>
