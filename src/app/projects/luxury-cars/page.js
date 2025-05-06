@@ -130,60 +130,42 @@ export default function LuxuryCarDepreciation() {
                     <div style={{ marginBottom: '15px' }}>
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>1. Porsche 911 GT3 (991 generation, 2014–2019)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                            The 911 GT3 shows the lowest average depreciation of any car in its class (~19.5%). Limited production allocation
-                            and huge enthusiast demand mean used GT3s often sell near their original MSRP. The naturally aspirated flat-6,
-                            track-proven performance, and availability of a manual gearbox create exceptional desirability. Porsche's
-                            reputation for reliability and the GT3's everyday usability further bolster its resale value.
+                            The 911 GT3 has the lowest depreciation of any car in its class (~19.5%). Limited production and huge enthusiast demand means used GT3s often sell for near original MSRP. The naturally aspirated flat-6, track proven performance and manual gearbox make it super desirable. Porsche's reputation for reliability and the GT3's everyday usability adds to its resale value.
                         </p>
                     </div>
 
                     <div style={{ marginBottom: '15px' }}>
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>2. Ferrari 458 Italia (2010–2015)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                            As the last naturally aspirated V8 Ferrari, enthusiasts covet the 458's high-revving engine sound and analog driving feel.
-                            Despite Ferrari building approximately 20,000 units worldwide, demand remains extremely strong. Early used 458s
-                            depreciated moderately, but values soon stabilized as collectors recognized its significance. Ferrari's brand prestige,
-                            relatively limited U.S. supply, and the model's "end of an era" status created this exceptional value retention.
+                            As the last naturally aspirated V8 Ferrari, enthusiasts love the 458's high revving engine sound and analog driving feel. Ferrari built around 20,000 units worldwide but demand is extremely strong. Early used 458s depreciated a bit but values stabilized as collectors recognized its significance. Ferrari's brand prestige, limited US supply and the model being "end of an era" status created this great value retention.
                         </p>
                     </div>
 
                     <div style={{ marginBottom: '15px' }}>
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>3. Lamborghini Aventador (2012–2021)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                            Lamborghini's V12 flagship lost only ~20% of its value after 5 years, impressive given its high price point.
-                            Limited supply (around 1,000 units annually) and its status as an iconic 12-cylinder Lamborghini contribute significantly.
-                            Its wild design, 217+ mph performance, and position as the last pure naturally aspirated V12 model before hybridization
-                            all add to its enduring appeal and strong resale performance.
+                            The Aventador lost only ~20% of its value after 5 years, impressive considering its price point. Limited supply (around 1,000 units a year) and being an iconic 12 cylinder Lamborghini helps. Its wild design, 217+ mph performance and being the last pure naturally aspirated V12 before hybridization all add to its enduring appeal and strong resale.
                         </p>
                     </div>
 
                     <div style={{ marginBottom: '15px' }}>
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>4. Ferrari 488 GTB (2016–2019)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                            The 488 GTB depreciated roughly 20–25% over five years despite introducing turbocharging to Ferrari's mid-engine lineup.
-                            Ferrari's careful production management ensures demand exceeds supply, supporting strong resale values.
-                            By the five-year mark, the 488's value stabilized as newer models arrived, with many buyers seeing it as the sweet spot
-                            of performance and relative simplicity compared to the F8 Tributo and hybrid SF90.
+                            The 488 GTB depreciated around 20-25% over 5 years despite introducing turbocharging to Ferrari's mid engine lineup. Ferrari's production management is very careful so demand exceeds supply and supports strong resale values. By 5 years in, the 488's value stabilized as newer models arrived and many saw it as the sweet spot of performance and simplicity compared to the F8 Tributo and hybrid SF90.
                         </p>
                     </div>
 
                     <div style={{ marginBottom: '15px' }}>
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>5. Lamborghini Huracán (2015–2020)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                            The V10-powered Huracán loses roughly 25% of its value over five years, significantly outperforming its platform-mate,
-                            the Audi R8 (which loses ~41.6% in the same period). The Lamborghini brand's exotic appeal combined with the model's
-                            reliability (thanks to Audi engineering) creates strong second-hand demand. Special variants like the Performante and STO
-                            helped elevate the entire model's desirability in the resale market.
+                            The V10 Huracán loses around 25% of its value over 5 years, much better than its platform mate the Audi R8 (which loses ~41.6% in the same period). The Lamborghini brand and the model's reliability (thanks to Audi engineering) creates strong second hand demand. Special variants like the Performante and STO helped increase the model's desirability in the resale market.
                         </p>
                     </div>
 
                     <div style={{ marginBottom: '15px' }}>
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>6. McLaren 720S (2017–2022)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                            The 720S lost roughly 25–30% of its value over five years, a substantial improvement over its predecessor (the MP4-12C
-                            which dropped ~50%). McLaren's growing brand strength combined with the 720S's benchmark performance (0-60 in 2.8s, active aero,
-                            carbon monocoque) creates a committed fanbase. Its relative rarity on U.S. roads due to McLaren's small dealer network
-                            also helps maintain stronger resale values compared to more common exotic brands.
+                            The 720S lost around 25-30% of its value over 5 years, much better than its predecessor (the MP4-12C which lost ~50%). McLaren's growing brand strength and the 720S's benchmark performance (0-60 in 2.8s, active aero, carbon monocoque) creates a loyal fanbase. Its relative rarity on US roads due to McLaren's small dealer network also helps maintain stronger resale values compared to more common exotic brands.
                         </p>
                     </div>
                 </div>
@@ -342,10 +324,7 @@ export default function LuxuryCarDepreciation() {
                     <div style={{ marginBottom: '15px' }}>
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>1. Lexus LFA (2011-2012)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                            The Lexus LFA has become a modern collectible, with values more than doubling since new. Only 500 were built, each with a hand-crafted
-                            4.8L V10 engine famous for its Formula 1-like sound. Initially a slow seller due to its high price point, the LFA's reputation
-                            grew steadily over time. Its combination of rarity, the exotic naturally-aspirated V10, and legendary Toyota reliability
-                            has created unprecedented demand among collectors.
+                            The Lexus LFA is a car that was originally neglected due to its association with a non-supercar oriented brand. However, it's grown to become a modern collectible, with values more than doubling since new. Only 500 units were built, each consisting of a 4.8L V10 engine famous for its Formula 1 sound, and the engineering done alongside Yamaha.
                         </p>
                     </div>
 
@@ -355,7 +334,7 @@ export default function LuxuryCarDepreciation() {
                             The 911 R was a limited-run special (991 units) that paired a GT3 RS 4.0-liter engine with a 6-speed manual transmission at a time when
                             Porsche had moved many GT cars to PDK only. It was an instant sell-out, and values soared immediately after launch, with examples
                             trading in the ~$500K range at their peak. Even after Porsche introduced the similar GT3 Touring, the 911 R's purity, rarity,
-                            and "R" pedigree have kept it extremely strong in the collector market.
+                            and "R" pedigree have kept it extremely strong in the collector market. Manual transmissions seem to be highly valuable, especially in modern times.
                         </p>
                     </div>
 
@@ -365,7 +344,7 @@ export default function LuxuryCarDepreciation() {
                             The F12tdf ("Tour de France") is the hardcore version of Ferrari's F12berlinetta, limited to 799 units. When new it cost roughly $490K,
                             but used examples quickly traded for much higher. This 770hp V12 coupe represents the peak of Ferrari's front-engine naturally-aspirated
                             supercars, which, combined with its scarcity and track-focused engineering, made it appreciate almost immediately. Collectors prize it
-                            for its blistering performance and the fact it capped off an era before Ferrari's shift to hybrid/turbo V12s.
+                            for its blistering performance and the fact it capped off an era before Ferrari's shift to hybrid/turbo V12s. It will be interesting to see how the 812 Competizione, the tdf equivalent for the 812 Superfast, compares in the future.
                         </p>
                     </div>
 
@@ -385,7 +364,7 @@ export default function LuxuryCarDepreciation() {
                             The 918 Spyder is Porsche's limited-production hybrid hypercar (918 units made) and has appreciated substantially. With nearly 900 hp
                             from its V8+electric powertrain, it was $847K new, but today prices exceed $1.5M for nice examples. The 918's value appreciation is driven
                             by its significance as one of the "Holy Trinity" of hybrid hypercars, along with limited build numbers and Porsche's engineering prestige.
-                            It offers modern usability plus collectability – a combination that drives its strong market performance.
+                            It offers modern usability plus collectability – a combination that drives its strong market performance. The LaFerrari would have been included here, but it's starting price was above $1M.
                         </p>
                     </div>
 
@@ -403,7 +382,7 @@ export default function LuxuryCarDepreciation() {
                         <h4 style={{ fontSize: '14px', color: '#333', marginBottom: '5px' }}>7. Ferrari 458 Speciale (2013-2015)</h4>
                         <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
                             The 458 Speciale is the lighter, more powerful track variant of the 458 Italia – and notably the last naturally-aspirated V8
-                            mid-engine Ferrari. That distinction, plus limited production, has made it a resale champion. Its base price was around $288K,
+                            mid-engine Ferrari. In fact, its ones of the last NA V8's period. That distinction, plus limited production, has made it a resale champion. Its base price was around $288K,
                             yet today typical cars sell for $430K+ (some rare-color examples fetching over $500K). Factors driving its appreciation include
                             its status as the "end of an era" before Ferrari's move to turbocharged engines, incredible driving dynamics, and strong collector demand.
                         </p>
@@ -437,7 +416,7 @@ export default function LuxuryCarDepreciation() {
                             It debuted with a $493K price tag and featured 740 hp, weight savings, aggressive aerodynamics, and that spine-tingling 6.5L
                             naturally aspirated V12. In the resale market, the SV has held steady around its original MSRP, with some low-mileage examples
                             selling above sticker (highest recorded was $621K for an ultra-low-mile SV). Its status as one of the last "pure" expressions of
-                            Lamborghini's naturally aspirated V12 era ensures continued strong demand.
+                            Lamborghini's naturally aspirated V12 era ensures continued strong demand. The SVJ has also been performing well as of 2025. Interestingly, car culture on TikTok and Instagram seems to boost prices of certain cars, including the Aventador SVJ and the 911 GT3 RS.
                         </p>
                     </div>
                 </div>
