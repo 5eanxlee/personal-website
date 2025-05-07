@@ -19,20 +19,20 @@ export default function CursorPage() {
     const totalPrompts = numberOfTrialAccounts * promptsPerAccount;
 
     // Token calculations
-    // Assuming 6.5k lines of code per prompt at ~80 tokens per line (conservative)
-    const inputTokensPerPrompt = 6500 * 80; // 520,000 tokens per prompt for code
+    // More realistic code context - average 1.2k lines of code per prompt at ~60 tokens per line
+    const inputTokensPerPrompt = 1200 * 60; // 72,000 tokens per prompt for code
 
     // Additional context tokens (variable names, documentation, etc.)
-    const additionalContextTokens = 200000; // 200k additional tokens for context
+    const additionalContextTokens = 28000; // 28k additional tokens for context
 
     // Total input tokens per prompt
     const totalInputTokensPerPrompt = inputTokensPerPrompt + additionalContextTokens;
 
     // Output tokens (typical AI response)
-    const outputTokensPerPrompt = 1500;
+    const outputTokensPerPrompt = 1200;
 
     // Recursive prompting factor (how many times the model is called in a chain)
-    const recursivePromptingFactor = 1.5; // Average of 1.5 calls per original prompt
+    const recursivePromptingFactor = 1.2; // Average of 1.2 calls per original prompt
 
     // Adjusted total tokens with recursive prompting
     const effectivePrompts = totalPrompts * recursivePromptingFactor;
@@ -47,10 +47,10 @@ export default function CursorPage() {
     const promptCachingWritePricePerMillion = 3.75; // $3.75 per million tokens for prompt caching write
     const promptCachingReadPricePerMillion = 0.30; // $0.30 per million tokens for prompt caching read
 
-    // Caching usage estimates (assume 50% of prompts involve caching)
-    const cachingUsagePercentage = 0.5;
+    // Caching usage estimates (assume 40% of prompts involve caching)
+    const cachingUsagePercentage = 0.4;
     const cachingWriteTokens = totalInputTokens * cachingUsagePercentage;
-    const cachingReadTokens = totalInputTokens * cachingUsagePercentage * 2; // Read cache more often than write
+    const cachingReadTokens = totalInputTokens * cachingUsagePercentage * 1.5; // Read cache more often than write
 
     // Cost calculations
     const inputTokenCost = (totalInputTokens / 1000000) * inputTokenPricePerMillion;
@@ -100,7 +100,7 @@ export default function CursorPage() {
                     </p>
                     <p style={{ marginTop: '15px' }}>
                         <strong>Input tokens per prompt:</strong> {formatNumber(totalInputTokensPerPrompt)}
-                        <span style={{ fontSize: '12px' }}> (based on 6.5k lines of code + context)</span>
+                        <span style={{ fontSize: '12px' }}> (based on 1.2k lines of code + context)</span>
                     </p>
                     <p>
                         <strong>Output tokens per prompt:</strong> {formatNumber(outputTokensPerPrompt)}
